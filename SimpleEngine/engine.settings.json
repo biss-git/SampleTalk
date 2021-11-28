@@ -1,0 +1,123 @@
+{
+  "Bools": [
+    {
+      "Value": false,
+      "DefaultValue": false,
+      "Key": "bool1",
+      "Name": "ON/OFFスイッチ",
+      "Description": "説明文",
+      "Order": 0,
+      "Type": "",
+      "Hide": false
+    },
+    {
+      "Value": false,
+      "DefaultValue": false,
+      "Key": "bool2",
+      "Name": "ON/OFFスイッチ",
+      "Description": "",
+      "Order": 0,
+      "Type": "",
+      "Hide": false
+    }
+  ],
+  "Ints": [
+    {
+      "Value": 5,
+      "DefaultValue": 5,
+      "Min": 0,
+      "Max": 10,
+      "SmallStep": 1,
+      "Key": "int1",
+      "Name": "整数の設定値",
+      "Description": "0 ~ 10",
+      "Order": 0,
+      "Type": "",
+      "Hide": false
+    },
+    {
+      "Value": 5,
+      "DefaultValue": 5,
+      "Min": 0,
+      "Max": 100,
+      "SmallStep": 1,
+      "Key": "int2",
+      "Name": "整数の設定値",
+      "Description": "0 ~ 100",
+      "Order": 0,
+      "Type": "",
+      "Hide": false
+    }
+  ],
+  "Doubles": [
+    {
+      "Value": 5,
+      "DefaultValue": 5,
+      "Min": -10,
+      "Max": 10,
+      "SmallStep": 0.1,
+      "StringFormat": "0.00",
+      "Key": "double1",
+      "Name": "実数の設定値",
+      "Description": "-10 ~ 10",
+      "Order": 0,
+      "Type": "",
+      "Hide": false
+    }
+  ],
+  "Strings": [
+    {
+      "Value": "",
+      "DefaultValue": "",
+      "FileDialogFilter": "",
+      "MaxLength": 100,
+      "Key": "string",
+      "Name": "文字列の自由入力",
+      "Description": "100文字以内",
+      "Order": 0,
+      "Type": "",
+      "Hide": false
+    },
+    {
+      "Value": "",
+      "DefaultValue": "",
+      "FileDialogFilter": "",
+      "MaxLength": 0,
+      "ComboItems": [
+        "a",
+        "b",
+        "c"
+      ],
+      "Key": "combobox",
+      "Name": "コンボボックスの設定値",
+      "Description": "好きなものを選んでください。",
+      "Order": 0,
+      "Type": "combobox",
+      "Hide": false
+    },
+    {
+      "Value": "",
+      "DefaultValue": "",
+      "FileDialogFilter": "テキストファイル(.txt) |*.txt| すべてのファイル |*.*",
+      "MaxLength": 0,
+      "Key": "file",
+      "Name": "ファイル選択ダイアログ",
+      "Description": "テキストファイルでフィルタかけてます。複数選択は対応してないです。\n複数選択したい場合はフォルダ選択ダイアログで何とか頑張ってください。",
+      "Order": 0,
+      "Type": "file",
+      "Hide": false
+    },
+    {
+      "Value": "",
+      "DefaultValue": "",
+      "FileDialogFilter": "",
+      "MaxLength": 0,
+      "Key": "folder",
+      "Name": "フォルダ選択ダイアログ",
+      "Description": "フォルダを選択することができます。",
+      "Order": 0,
+      "Type": "folder",
+      "Hide": false
+    }
+  ]
+}
