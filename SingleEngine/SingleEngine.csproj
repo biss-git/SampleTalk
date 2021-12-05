@@ -14,11 +14,11 @@
 
   <ItemGroup>
     <PackageReference Include="NAudio" Version="2.0.1" />
-    <PackageReference Include="Yomiage.SDK" Version="1.1.0" />
+    <PackageReference Include="Yomiage.SDK" Version="1.6.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="character.config.json">
+    <None Update="library\character.config.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="engine.config.json">
@@ -36,10 +36,6 @@
     <None Update="license.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="library\" />
   </ItemGroup>
 
 </Project>

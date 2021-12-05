@@ -17,31 +17,19 @@
     "DefaultValue": 80,
     "Min": 80,
     "Max": 500,
-    "SmallStep": 10,
-    "ComboItems": null,
-    "Key": "",
-    "Name": "",
-    "Description": "",
-    "Order": 0,
-    "Type": "",
-    "Hide": true
+    "SmallStep": 10
   },
   "LongPauseSetting": {
     "Value": 370,
     "DefaultValue": 370,
     "Min": 100,
     "Max": 2000,
-    "SmallStep": 10,
-    "ComboItems": null,
-    "Key": "",
-    "Name": "",
-    "Description": "",
-    "Order": 0,
-    "Type": "",
-    "Hide": true
+    "SmallStep": 10
   },
   "VolumeSetting": {
+    "Name": "音量",
     "Unit": "[倍]",
+    "Description": "",
     "Value": 1,
     "DefaultValue": 1,
     "Min": 0,
@@ -50,15 +38,13 @@
     "MaxExtend": 2,
     "SmallStep": 0.01,
     "StringFormat": "0.00",
-    "Key": "VOL",
-    "Name": "音量",
-    "Description": "",
-    "Order": 0,
     "Type": "Section",
     "Hide": true
   },
   "SpeedSetting": {
+    "Name": "話速",
     "Unit": "[倍]",
+    "Description": "",
     "Value": 1,
     "DefaultValue": 1,
     "Min": 0.5,
@@ -67,15 +53,13 @@
     "MaxExtend": 5,
     "SmallStep": 0.01,
     "StringFormat": "0.00",
-    "Key": "SPD",
-    "Name": "話速",
-    "Description": "",
-    "Order": 0,
     "Type": "Section",
     "Hide": true
   },
   "PitchSetting": {
+    "Name": "高さ",
     "Unit": "[倍]",
+    "Description": "",
     "Value": 1,
     "DefaultValue": 1,
     "Min": 0.5,
@@ -84,15 +68,13 @@
     "MaxExtend": 5,
     "SmallStep": 0.01,
     "StringFormat": "0.00",
-    "Key": "PIT",
-    "Name": "高さ",
-    "Description": "",
-    "Order": 0,
     "Type": "Section",
     "Hide": true
   },
   "EmphasisSetting": {
+    "Name": "抑揚",
     "Unit": "[倍]",
+    "Description": "",
     "Value": 1,
     "DefaultValue": 1,
     "Min": 0,
@@ -101,12 +83,7 @@
     "MaxExtend": 5,
     "SmallStep": 0.01,
     "StringFormat": "0.00",
-    "Key": "EMP",
-    "Name": "抑揚",
-    "Description": "",
-    "Order": 0,
     "Type": "Section",
     "Hide": true
-  },
-  "AdditionalSettings": null
+  }
 }

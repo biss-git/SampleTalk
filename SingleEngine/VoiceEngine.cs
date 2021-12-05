@@ -13,7 +13,7 @@ namespace SingleEngine
 {
     public class VoiceEngine : VoiceEngineBase
     {
-        public override async Task<double[]> Play(VoiceConfig voicePreset, VoiceConfig subPreset, TalkScript talkScript, MasterEffectValue masterEffect, Action<int> setSamplingRate_Hz)
+        public override async Task<double[]> Play(VoiceConfig voicePreset, VoiceConfig subPreset, TalkScript talkScript, MasterEffectValue masterEffect, Action<int> setSamplingRate_Hz, Action<double[]> submitWavePart)
         {
             StateText = "再生されました。";
             if (IsPlaying) { return null; }

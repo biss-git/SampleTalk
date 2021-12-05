@@ -4,6 +4,8 @@
   "OS": "Windows",
   "Language": "Japanese",
   "VolumeSetting": {
+    "Name": "音量",
+    "Description": "",
     "Unit": "[倍]",
     "Value": 1,
     "DefaultValue": 1,
@@ -13,14 +15,11 @@
     "MaxExtend": 2,
     "SmallStep": 0.01,
     "StringFormat": "0.00",
-    "Key": "VOL",
-    "Name": "音量",
-    "Description": "",
-    "Order": 0,
-    "Type": "",
     "Hide": false
   },
   "SpeedSetting": {
+    "Name": "話速",
+    "Description": "",
     "Unit": "[倍]",
     "Value": 1,
     "DefaultValue": 1,
@@ -30,14 +29,11 @@
     "MaxExtend": 5,
     "SmallStep": 0.01,
     "StringFormat": "0.00",
-    "Key": "SPD",
-    "Name": "話速",
-    "Description": "",
-    "Order": 0,
-    "Type": "",
     "Hide": false
   },
   "PitchSetting": {
+    "Name": "高さ",
+    "Description": "",
     "Unit": "[倍]",
     "Value": 1,
     "DefaultValue": 1,
@@ -47,14 +43,11 @@
     "MaxExtend": 5,
     "SmallStep": 0.01,
     "StringFormat": "0.00",
-    "Key": "PIT",
-    "Name": "高さ",
-    "Description": "",
-    "Order": 0,
-    "Type": "",
     "Hide": false
   },
   "EmphasisSetting": {
+    "Name": "抑揚",
+    "Description": "",
     "Unit": "[倍]",
     "Value": 1,
     "DefaultValue": 1,
@@ -64,12 +57,6 @@
     "MaxExtend": 5,
     "SmallStep": 0.01,
     "StringFormat": "0.00",
-    "Key": "EMP",
-    "Name": "抑揚",
-    "Description": "",
-    "Order": 0,
-    "Type": "",
     "Hide": false
-  },
-  "AdditionalSettings": null
+  }
 }
